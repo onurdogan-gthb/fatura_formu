@@ -69,7 +69,7 @@ if (!$stmt_summary) {
     exit;
 }
 
-$stmt_summary->bind_param("idididididididid", 
+$stmt_summary->bind_param("ididididididid", 
     $data['summary']['genel_toplam_adet'], $data['summary']['genel_toplam_tutar'],
     $data['summary']['egitim_adet'], $data['summary']['egitim_tutar'],
     $data['summary']['temizlik_adet'], $data['summary']['temizlik_tutar'],
